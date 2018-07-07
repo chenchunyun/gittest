@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CollectionsDemo {
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<String>();
+		List<String> list = new ArrayList<>();
 		String str1 = new String("666");
 		list.add("ab");
 		list.add("ac");

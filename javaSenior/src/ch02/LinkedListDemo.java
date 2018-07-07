@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class LinkedListDemo {
 	public static void main(String[] args) {
-		LinkedList<Object> links = new LinkedList<Object>();
+		LinkedList<Object> links = new LinkedList<>();
 		links.add("中国");
 		links.add("海南");
 		links.addFirst("北京");

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayListDemo {
 	public static void main(String[] args) {
-		List<Object > li = new ArrayList<Object>();
+		List<Object > li = new ArrayList<>();
 		li.add("1字符串对象");//index = 0
 		li.add("2字符串对象");//index = 1
 		li.add("2字符串对象");//index = 2

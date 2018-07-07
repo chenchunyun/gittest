@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class HashMapDemo {
 	public static void main(String[] args) {
-		HashMap<Long, Set<String>> hp = new HashMap<Long,Set<String>>();
+		HashMap<Long, Set<String>> hp = new HashMap<>();
 		
 		Long id1 = 420111000000005581L;//省份证号
 		Set<String> ac1 = new HashSet<String>(); //银行卡号
@@ -19,6 +19,7 @@ public class HashMapDemo {
 		ac1.add("EJ10000023");
 		
 		hp.put(id1, ac1);
+		hp.put(id2, ac2);
 
 		
 	}
